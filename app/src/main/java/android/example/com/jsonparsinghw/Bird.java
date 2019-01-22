@@ -19,8 +19,8 @@ public class Bird {
         this.family = family;
     }
 
-    public Members getMembers() {
-        return members;
+    public String getMembers() {
+        return members.toString();
     }
 
     public void setMembers(Members members) {

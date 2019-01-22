@@ -17,7 +17,8 @@ public class Members {
 
     public String getMembers(JSONArray members) {
         for (int i = 0; i < membersList.size(); i++) {
-            membersString.append(i + "\n");
+            membersString.append(i);
+            membersString.append("\n");
         }
         return membersString.toString();
     }
